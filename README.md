@@ -132,46 +132,6 @@ This phase reinforced the importance of verifying automated security findings in
 
 The project includes a detailed screenshot walkthrough documenting the configuration, execution, and findings of the assessment.
 
-Suggested repository structure:
-
-```text
-aws-security-agent-juice-shop/
-├── README.md
-├── screenshots/
-│   ├── 01-custom-security-requirements/
-│   ├── 02-design-security-review/
-│   ├── 03-threat-modelling/
-│   ├── 04-git-code-review/
-│   └── 05-penetration-testing/
-└── documentation/
-    └── project-walkthrough.pdf
-```
-
-Place the corresponding screenshots in each folder and update the README with the actual image filenames.
-
-Example:
-
-```markdown
-### Custom Security Requirements
-
-![Custom Security Requirements](screenshots/01-custom-security-requirements/custom-pack.png)
-
-### Security Design Review
-
-![Design Review Findings](screenshots/02-design-security-review/findings.png)
-
-### Threat Modelling
-
-![Threat Model Overview](screenshots/03-threat-modelling/threat-model.png)
-
-### Git-Integrated Code Review
-
-![Pull Request Security Review](screenshots/04-git-code-review/pull-request-review.png)
-
-### Penetration Testing
-
-![Penetration Test Findings](screenshots/05-penetration-testing/sql-finding.png)
-```
 
 ## Security Considerations
 
